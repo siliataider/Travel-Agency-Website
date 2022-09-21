@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+ 
+<link rel="stylesheet" href="../css/style.css"/>
+<!--<img class="mapImg" src="../Images/Map.svg" alt="Retourner en haut" /> -->
+
+<svg class="svg-container" width="800" height="600" viewBox="0 0 500 300">
+    <image x=0 y=0 width=500 height=300 xlink:href="http://johnsamuel.info/fr/enseignement/cours/2020/TLI/World_map_blank_without_borders.svg" />
+    <ellipse cx=420 cy=82 rx=7 ry=8 id="svgTokyo" fill="grey" onmouseenter="entreSVG(0,'svgTokyo')" onmouseleave="sortSVG('svgTokyo')" onclick="cliqueImage('Tokyo')"/> 
+    <ellipse cx=420 cy=195 rx=15 ry=12 id="svgMelbourne" fill="grey" onmouseenter="entreSVG(1,'svgMelbourne')" onmouseleave="sortSVG('svgMelbourne')" onclick="cliqueImage('Melbourne')"/>
+    <ellipse cx=255 cy=65 rx=5 ry=5 id="svgVenise" fill="grey" onmouseenter="entreSVG(4,'svgVenise')" onmouseleave="sortSVG('svgVenise')" onclick="cliqueImage('Venise')"/>
+    <ellipse cx=295 cy=105 rx=10 ry=8 id="svgDubai" fill="grey" onmouseenter="entreSVG(5,'svgDubai')" onmouseleave="sortSVG('svgDubai')" onclick="cliqueImage('Dubai')"/>
+    <ellipse cx=63 cy=60 rx=12 ry=10 id="svgHawaii" fill="grey" onmouseenter="entreSVG(2,'svgHawaii')" onmouseleave="sortSVG('svgHawaii')" onclick="cliqueImage('Hawaii')"/>
+    <ellipse cx=249 cy=73 rx=5 ry=5 id="svgFlorence" fill="grey" onmouseenter="entreSVG(3,'svgFlorence')" onmouseleave="sortSVG('svgFlorence')" onclick="cliqueImage('Florence')"/>
+</svg>
+<iframe id="video" hidden=True width="560" height="315" src="https://www.youtube.com/embed/-SL9KRvzVmo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<script src="../js/script.js"></script>
+</html>
